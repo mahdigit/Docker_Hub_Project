@@ -35,3 +35,4 @@ class Dashboard(object):
 class Search(object):
   REPO_COUNT                            = (By.XPATH, "//*[@class='search-page']/div[1]//h3")
   TYPE_SEL                              = (By.XPATH, "//*[@class='search-page']//select")
+  
