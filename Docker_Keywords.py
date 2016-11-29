@@ -98,9 +98,8 @@ class Authentication:
 
     def verify_successful_sign_up(self):
         # This keyword will verify email confirmation message based on successful sign up
-        time.sleep(1)
         driver = self.driver
-        time.sleep(0.5)
+        time.sleep(2)
         Exp_Confirmation_Msg = 'Please check your email to activate your account.'
         try:
             Confirmation_Msg = driver.find_element(*Home_Page.SIGN_UP_CONF_MSG).text
