@@ -149,3 +149,4 @@ class Search_Func:
         Utility(self.driver).verify_text(count, Repo_Count,
                                          ('Count should be %s, but it is %s') % (count, Repo_Count))
         print('Total search result is matching as expected')
+        
