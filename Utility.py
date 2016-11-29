@@ -14,3 +14,4 @@ class Utility:
 
     def create_random_string(self, size=6, chars = string.ascii_lowercase):
         return ''.join(random.choice(chars) for _ in range(size))
+    
